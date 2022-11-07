@@ -20,7 +20,7 @@
 #             print(row)
 
 # string to search in file
-word = 'NYXOAH S A'
+word = '021ESC 01 7'
 with open(r'13fseclist.txt', 'r') as fp:
     # read all lines in a list
     lines = fp.readlines()
@@ -33,6 +33,7 @@ with open(r'13fseclist.txt', 'r') as fp:
             num = lines.index(line)
             print(num + 36)
             print(type(num))
+        
    
 # open the sample file used
 file = open('13fseclist.txt')
@@ -40,7 +41,7 @@ file = open('13fseclist.txt')
 # read the content of the file opened
 content = file.readlines()
   
-# read 10th line from the file
-print(content[num + 36])
-print(content[num + 36 + 50])
+
+
+
   
