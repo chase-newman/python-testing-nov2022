@@ -1,4 +1,4 @@
-# import csv
+import csv
 
 # inputfile = csv.reader(open('dates.csv','r'))
 # outputfile = open('placelist.txt','w')
